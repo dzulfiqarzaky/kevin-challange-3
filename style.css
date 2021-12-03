@@ -16,11 +16,17 @@ h1 {
 
 .background {
     background-color: #23424a;
-    padding: 10rem;
+
+    /* a lot of people make the problem with using 10rem padding */
+    /* padding: 10rem; */
+    padding: 100px 0;
 }
 
 .container {
-   max-width: 50%;
+   width: 80%;
+   /* put max-width values */
+   max-width: 750px;
+   margin: 0 auto;
 }
 
 .cta {
