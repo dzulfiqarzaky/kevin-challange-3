@@ -25,13 +25,23 @@ h1 {
 .container {
    width: 80%;
    /* put max-width values */
-   max-width: 750px;
+   max-width: 1100px;
    margin: 0 auto;
 }
 
+.hero__text {
+    width: 60%;
+
+}
+
+/* add margin bottom to p */
+.background p {
+    margin-bottom: 3em;
+}
+
 .cta {
-    padding: .7rem 2rem;
-    margin-top: 2rem;
+    padding: .75em 2em;
+    
 
     display: inline-block;
     background-color: #38cfd9;
@@ -42,4 +52,10 @@ h1 {
     
     font-weight: 900;
     text-decoration: none;
+}
+
+/* add focus and hover state */
+.cta:hover,
+.cta:focus {
+    opacity: .75;
 }
